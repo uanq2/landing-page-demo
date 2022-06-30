@@ -10,73 +10,44 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Titillium+Web:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" rel="stylesheet" href="./assets/styles/style.css">
     <title>Active Wear Landing Page</title>
 </head>
 
 <header>
     <div class="top-header">
-        Get 15% OFF Your Order of $75 or More
+        Get 15% OFF Your Order With Code JULY4
     </div>
     <div class="main-bar">
         <img src="./assets/images/ss-us_horizontal.webp" alt="S&S logo" class="h-logo">
         <div class="searchBox">
             <input class="searchInput" type="text" name="" placeholder="Style # or Keyboard">
             <button class="searchButton" href="#">
-                <i class="material-icons">
-                    search
-                </i>
+                <i class="fa-solid fa-magnifying-glass">search</i>
             </button>
+        </div>
+        <div class="dropdown">
+            <button class="log-in-btn">Log In/Register</button>
+            <div class="dropdown-content">
+                <a>Sign In</a>
+                <a>Register</a>
+                <a>Forgot Password</a>
+            </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
-        <div class="container">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" rel="noopener" target="_blank" href="#">Navbar</a>
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" rel="noopener" target="_blank" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="noopener" target="_blank" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="noopener" target="_blank" href="#">Pricing</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Action</a>
-                            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Another action</a>
-                            <a class="dropdown-item" rel="noopener" target="_blank" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-                <!-- Links -->
-                <form class="form-inline">
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </div>
-                </form>
-            </div>
-            <!-- Collapsible content -->
+
+    <!--Mask-->
+    <div id="intro" class="view">
+        <div class="mask">
         </div>
-    </nav>
+    </div>
+    <!--/.Mask-->
 </header>
 
-<main>
+<main class="container">
+    <h1>Brand New Arrivals</h1>
+    <p>Be the first one to get your hand on our latest collection</p>
 
 </main>
 
